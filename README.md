@@ -16,7 +16,7 @@ app.constant("KINVEY", {
 });
 ```
 
-Format of the JSON Data
+Format of the JSON Data for the `Devices` collection in Kinvey
 
 ```JavaScript
   {
