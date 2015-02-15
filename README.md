@@ -15,3 +15,20 @@ app.constant("KINVEY", {
     }
 });
 ```
+
+Format of the JSON Data
+
+```JavaScript
+  {
+    "_id": "54c7ee47e80f3f8026009156",
+    "first_col": "ipad",
+    "second_col": "tablet",
+    "_acl": {
+      "creator": "kid_-JeiCLZM5"
+    },
+    "_kmd": {
+      "lmt": "2015-02-15T17:04:56.335Z",
+      "ect": "2015-01-27T20:00:07.394Z"
+    }
+  },
+```
