@@ -40,4 +40,4 @@ Login Screen
 
 
 List View w/Results and User Object Displayed
-![Manage Data With HTTP Verbs](https://raw.githubusercontent.com/aaronksaunders/AngularKinveyDatastore/master/Screenshots/CRUD%20Screen.png)
+![Manage Data With HTTP Verbs](https://raw.githubusercontent.com/aaronksaunders/AngularKinveyDatastore/master/Screenshots/List%20View.png)
