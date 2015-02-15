@@ -32,3 +32,12 @@ Format of the JSON Data for the `Devices` collection in Kinvey
     }
   },
 ```
+
+###Screenshots
+------------
+Login Screen
+![Login Screen](https://raw.githubusercontent.com/aaronksaunders/AngularKinveyDatastore/master/Screenshots/Login%20Screen.png)
+
+
+List View w/Results and User Object Displayed
+![Manage Data With HTTP Verbs](https://raw.githubusercontent.com/aaronksaunders/AngularKinveyDatastore/master/Screenshots/CRUD%20Screen.png)
