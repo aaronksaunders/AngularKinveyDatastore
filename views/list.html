@@ -1,0 +1,16 @@
+<p>
+<button class="btn btn-primary" ng-click="doLogout()">LOGOUT</button>
+</p>
+
+<table class="table">
+    <tr  class="animate-repeat" ng-repeat="item in items" ng-if="items.length">
+        <td>{{$index + 1}}</td>
+        <td>{{item.first_col}}</td>
+        <td>{{item.second_col}}</td>
+    </tr>
+    <tr ng-if="items.length == 0">
+        <td><strong>No results found...</strong></td>
+    </tr>
+</table>
+<pre>{{response | json}}</pre>
+
