@@ -70,7 +70,7 @@ angular.module('appControllers', [])
             $scope.response = UserObject;
 
 
-            KinveyService.getData().then(function(_data){
+            KinveyService.getDevicesData().then(function(_data){
                 $scope.items = _data;
             }, function(_error){
                 alert("Error Getting Data " + _error.debug)
