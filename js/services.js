@@ -12,7 +12,14 @@ angular.module('appServices', ['kinvey'])
                     return $kinvey.init(KINVEY.APPINFO);
                 },
                 currentUser: function (_kinveyInitUser) {
-                    console.log("_kinveyInitUser " + _kinveyInitUser);
+
+
+                    // if there is no user passed in, see if there is already an
+                    // active user that can be utilized
+                    _kinveyInitUser = _kinveyInitUser ? _kinveyInitUser : $kinvey.getActiveUser();
+
+                    console.log("_kinveyInitUser " + JSON.stringify(_kinveyInitUser));
+
                     if (!_kinveyInitUser) {
                         return $q.reject({error: "noUser"});
                     } else {
