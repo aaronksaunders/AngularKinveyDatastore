@@ -10,7 +10,7 @@ And finally you will need to have created a user object so you can log in to you
 ```JavaScript
 app.constant("KINVEY", {
     "APPINFO": {
-        "appId" : "YOUR APP ID",
+        "appKey" : "YOUR APP ID",
         "appSecret" : "YOUR APP SECRET VALUE"
     }
 });
